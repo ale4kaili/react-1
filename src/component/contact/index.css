@@ -1,0 +1,43 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.info {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-user {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.avatar {
+    border-radius: 50px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.sub-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 28px;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.sub-title:not(:last-child)::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 4px;
+    border-radius: 4px;
+    background-color: #000;
+}

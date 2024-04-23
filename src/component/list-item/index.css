@@ -1,0 +1,40 @@
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-top: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.list-item__price {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+    padding-bottom: 8px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.list-item__block {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.list-item__title {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list-item__content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.list-item__hide {
+    display: none;
+}
